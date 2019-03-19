@@ -1,0 +1,265 @@
+테이블명,설명
+indb.app_code,
+indb.app_group,
+indb.app_http,
+indb.app_transport,
+indb.base_demo_pred_monthly,
+indb.base_fmly_cluster_monthly,
+indb.base_fmly_rel_pred_monthly,
+indb.biz_adm_ingu,
+indb.bloc_snapshot_month,
+indb.call_points,
+indb.censors_emd_ingu,
+indb.cms_bts,
+indb.cms_enb,
+indb.cms_ru,
+indb.cms_subway_du,
+indb.cms_subway_info,
+indb.cms_subway_ru,
+indb.cms_subway_section_info,
+indb.indb__pcell_lte_utmk_pcell_lte_utmk_idx__,
+indb.index50,
+indb.life_spend_card_monthly,
+indb.life_spend_cardonline_monthly,
+indb.life_spend_ecommerce_monthly,
+indb.life_style_biz_income_so_area_avg,
+indb.life_style_match,
+indb.life_style_r114_so_area_avg,
+indb.life_style_tms_mon_scls_sales_est_age_so_area_mcls_list,
+indb.life_style_tms_mon_scls_sales_est_age_so_area_scls_list,
+indb.life_style_tms_mon_scls_sales_est_so_area_mcls_list,
+indb.life_style_tms_mon_scls_sales_est_so_area_mcls_upjong,
+indb.life_style_tms_mon_scls_sales_est_so_area_scls_list,
+indb.life_style_tms_mon_scls_sales_est_so_area_scls_upjong,
+indb.life_style_tms_mon_scls_sales_est_time_so_area_mcls_list,
+indb.life_style_tms_mon_scls_sales_est_time_so_area_scls_list,
+indb.life_style_tms_mon_scls_sales_est_wh_so_area_mcls_list,
+indb.life_style_tms_mon_scls_sales_est_wh_so_area_scls_list,
+indb.life_style_tms_mon_scls_sales_est_wkdy_so_area_mcls_list,
+indb.life_style_tms_mon_scls_sales_est_wkdy_so_area_scls_list,
+indb.life_visit_poi_monthly,
+indb.loc,- loc 데이터
+indb.loc_hash,
+indb.loc_input_cnt,
+indb.loc_roaming,- loc 로밍 데이터
+indb.pcell_cdma,
+indb.pcell_lte,
+indb.pcell_lte_utmk,
+indb.pcell_wcdma,
+indb.td_zord_cust,
+indb.td_zord_psninf_itm_pra_hst,
+indb.td_zord_svc_addr,
+indb.td_zord_svc_addr_ref,
+indb.td_zord_wlf_dc_cust_hst,
+indb.tmap_favorate,
+indb.tmap_poimeta,
+indb.tmap_poimeta_category,
+indb.tmap_poimeta_category_monthly,
+indb.tmap_poimeta_monthly,
+indb.tmap_routehistory,
+indb.tmap_routehistory1,
+indb.tmap_rprsd,
+indb.twifi_ap,
+indb.twifi_ap2,
+mbp.age_gb,
+mbp.bloc_05,- 5분 스냅샷 데이터
+mbp.bloc_05_exist_inflow_list,- 5분 스냅샷을 이용한 유동인구 데이터
+mbp.bloc_05_exist_inflow_list_day,- 5분 스냅샷을 이용한 일별 유동인구 데이터
+mbp.bloc_05_exist_pop_cnt,- 5분 스냅샷을 이용한 존재인구 count
+mbp.bloc_05_exist_pop_cnt_daily,- 5분 스냅샷을 이용한 일별 존재인구 count
+mbp.bloc_05_exist_pop_cnt_roaming,- 5분 스냅샷 로밍데이터를 이용한 존재인구 count
+mbp.bloc_05_exist_pop_list,- 5분 스냅샷을 이용한 존재인구 집계 데이터
+mbp.bloc_05_exist_pop_list_active,- 5분 스냅샷을 이용한 활동인구 집계 데이터
+mbp.bloc_05_exist_pop_list_daily,- 5분 스냅샷을 이용한 존재인구 일별 집계 데이터
+mbp.bloc_05_exist_pop_list_daily_pivot,"- 5분 스냅샷을 이용한 존재인구 일별 집계 후 성,연령 별 피벗"
+mbp.bloc_05_exist_pop_list_daily_sum_pivot,"- 5분 스냅샷을 이용한 존재인구 일별 집계 후 성,연령 별 피벗 데이터 합계"
+mbp.bloc_05_exist_pop_list_daily_view,
+mbp.bloc_05_exist_pop_list_pivot,"- 5분 스냅샷을 이용한 존재인구 집계 후 성,연령 별 피벗"
+mbp.bloc_05_exist_pop_list_roaming,- 5분 스냅샷 로밍데이터를 이용한 존재인구 집계 데이터
+mbp.bloc_05_exist_pop_list_tmp,- 5분 스냅샷을 이용한 존재인구 집계 데이터를 만드는데 필요한 피벗 테이블
+mbp.bloc_05_exist_pop_list_view,
+mbp.bloc_05_groupby_cell,
+mbp.bloc_05_inflow_pop_list,- 5분 스냅샷을 이용한 유동인구 데이터
+mbp.bloc_05_roaming,- 로밍데이터 5분 스냅샷
+mbp.bloc_05_update,
+mbp.bloc_active_inflow_gender_age_list,
+mbp.bloc_active_inflow_time_list,
+mbp.bloc_active_user,- 활동유저 데이터
+mbp.bloc_exist_day,
+mbp.bloc_exist_inflow_gender_age_list,
+mbp.bloc_exist_inflow_time_list,
+mbp.bloc_exist_month,
+mbp.bloc_home,- 서비스코드 별 월별 거주지 데이터
+mbp.bloc_home_monthly,- 서비스코드 별 최근 달 거주지 데이터
+mbp.bloc_home_tmp,- 서비스코드 별 거주지 데이터를 만들 때 사용하는 임시테이블
+mbp.bloc_home_tmp_adm,- 서비스코드 별 거주지 데이터를 만들 때 사용하는 임시테이블에 행정동 코드 추가
+mbp.bloc_home_work_daily,"- 서비스코드 별 거주지, 근무지 데이터를 만들기 위한 일별 데이터 집계 테이블"
+mbp.bloc_local_in_out_list,
+mbp.bloc_local_in_out_list_before,
+mbp.bloc_local_in_out_list_before_2,
+mbp.bloc_move_method,
+mbp.bloc_od,- OD데이터
+mbp.bloc_od_60,
+mbp.bloc_od_daily,
+mbp.bloc_od_dong,- 행정동 별 OD데이터
+mbp.bloc_od_dong_pivot,"- 행정동 별 OD데이터 행정동,성,연령 별 피벗"
+mbp.bloc_od_dong_pivot_roaming,"- 로밍데이터의 행정동 별 OD데이터 행정동,성,연령 별 피벗"
+mbp.bloc_od_dong_roaming,- 로밍데이터의 행정동 별 OD데이터
+mbp.bloc_od_dong_view,
+mbp.bloc_od_inflow_dong,- 행정동 별 OD데이터에서 유동인구 집계 데이터
+mbp.bloc_od_inflow_dong_roaming,- 로밍데이터의 행정동 별 OD데이터에서 유동인구 집계 데이터
+mbp.bloc_od_inflow_sigungu,- 시군구 별 OD데이터에서 유동인구 집계 데이터
+mbp.bloc_od_inflow_sigungu_roaming,- 로밍데이터의 시군구 별 OD데이터에서 유동인구 집계 데이터
+mbp.bloc_od_roaming,- 로밍데이터의 OD데이터
+mbp.bloc_od_sigungu,- 시군구 별 OD데이터
+mbp.bloc_od_sigungu_roaming,- 로밍데이터의 시군구 별 OD데이터
+mbp.bloc_od_sigungu_tmp,
+mbp.bloc_od_sigungu_tmp2,
+mbp.bloc_od_sigungu_tmp3,
+mbp.bloc_od_stay_dong,- 행정동 별 OD데이터에서 체류인구 집계 데이터
+mbp.bloc_od_stay_dong_roaming,- 로밍데이터의 행정동 별 OD데이터에서 체류인구 집계 데이터
+mbp.bloc_od_stay_sigungu,- 시군구 별 OD데이터에서 체류인구 집계 데이터
+mbp.bloc_od_stay_sigungu_roaming,- 로밍데이터의 시군구 별 OD데이터에서 체류인구 집계 데이터
+mbp.bloc_od_tmp,
+mbp.bloc_od_tmp_roaming,
+mbp.bloc_od_visitor_dong,- 행정동 별 OD데이터에서 방문자 집계 데이터
+mbp.bloc_od_visitor_dong_roaming,- 로밍데이터의 행정동 별 OD데이터에서 방문자 집계 데이터
+mbp.bloc_od_visitor_sigungu,- 시군구 별 OD데이터에서 방문자 집계 데이터
+mbp.bloc_od_visitor_sigungu_roaming,- 로밍데이터의 시군구 별 OD데이터에서 방문자 집계 데이터
+mbp.bloc_snapshot_day,
+mbp.bloc_snapshot_month,
+mbp.bloc_statistic_day,- 5분 스냅샷 일별 통계 데이터
+mbp.bloc_statistic_hour,- 5분 스냅샷 시간별 통계 데이터
+mbp.bloc_statistic_week,- 5분 스냅샷 주별 통계 데이터
+mbp.bloc_svc_adm_rate_monthly,
+mbp.bloc_work,- 서비스코드 별 월별 근무지 데이터
+mbp.bloc_work_monthly,- 서비스코드 별 최근 달 근무지 데이터
+mbp.bloc_work_temp_0125,
+mbp.bloc_work_tmp,- 서비스코드 별 거주지 데이터를 만들 때 사용하는 임시테이블
+mbp.bloc_work_tmp_20190211,
+mbp.bloc_work_tmp_adm,- 서비스코드 별 거주지 데이터를 만들 때 사용하는 임시테이블에 행정동 코드 추가
+mbp.cms_bts_juso,
+mbp.cms_cell_day,
+mbp.cms_cell_day_adm,
+mbp.cms_cell_day_adm_02,
+mbp.cms_cell_day_adm_daily,
+mbp.cms_cell_day_adm_daily_view,
+mbp.cms_cell_day_tmp,
+mbp.cms_enb_juso,
+mbp.cms_ru_juso,
+mbp.comm_holidays,
+mbp.cust_adm_ingu_cnt,
+mbp.cust_forein_visit,
+mbp.cust_forein_visit_tmp,
+mbp.cust_info,
+mbp.cust_mcc,
+mbp.dual,
+mbp.hd_card_bizmstr_close_building,
+mbp.hd_card_dms_dai_sales_est,
+mbp.hd_card_dms_merchant_cnt,
+mbp.hd_card_dms_mon_sales_est,
+mbp.hd_card_dms_mon_sales_est_age,
+mbp.hd_card_dms_mon_sales_est_det,
+mbp.hd_card_dms_mon_sales_est_sum,
+mbp.hd_card_dms_mon_sales_est_sum_gb,
+mbp.hd_card_dms_mon_sales_est_time,
+mbp.hd_card_dms_mon_sales_est_wkdy,
+mbp.hd_card_hd_stdym,
+mbp.hd_card_tms_dai_scls_sales_est_age,
+mbp.hd_card_tms_dai_scls_sales_est_time,
+mbp.hd_card_tms_mon_scls_sales_est_age,
+mbp.hd_card_tms_mon_scls_sales_est_scls,
+mbp.hd_card_tms_mon_scls_sales_est_time,
+mbp.hd_card_tms_mon_scls_sales_est_wkdy,
+mbp.life_style_match_cell,
+mbp.life_style_match_cell_day,
+mbp.life_style_match_time,
+mbp.loc_cms,
+mbp.loc_cms_2,
+mbp.loc_cms2,
+mbp.parking_index_bizmstr_index,
+mbp.parking_index_bizmstr_open_cnt,
+mbp.parking_index_car_week_score_sum,
+mbp.parking_index_car_weekend_score_sum,
+mbp.parking_index_dmm_flspnr_cnt,
+mbp.parking_index_dmm_m_flspnr_cnt,
+mbp.parking_index_dmp_wk_plc_pop_sum,
+mbp.parking_index_flspnr_index,
+mbp.parking_index_gu_sigun_match,
+mbp.parking_index_index_300m,
+mbp.parking_index_m_flspnr_index,
+mbp.parking_index_match_index_ingu,
+mbp.parking_index_parking_cnt,
+mbp.parking_index_parking_index,
+mbp.parking_index_tmap_week_cnt,
+mbp.parking_index_tmap_weekend_cnt,
+mbp.parking_index_vehicle_per,
+mbp.parking_index_week_car_index,
+mbp.parking_index_week_tmap_index,
+mbp.parking_index_weekend_car_index,
+mbp.parking_index_weekend_tmap_index,
+mbp.parking_index_wk_plc_pop_index,
+mbp.parking_stay_ingu,
+mbp.parking_time_monthly,
+mbp.parking_time_monthly_car,
+mbp.parking_time_monthly_rate,
+mbp.parking_time_xy,
+mbp.parking_time_xy_monthly,
+mbp.parking_time_xy_monthly_t,
+mbp.parking_time_xy_monthly_t2,
+mbp.parking_tmp,
+mbp.quarter_biz_income,
+mbp.quarter_dmm_adong,
+mbp.quarter_dmm_aphus_dong,
+mbp.quarter_dmm_aphus_ho,
+mbp.quarter_dmm_aphus_hsmp,
+mbp.quarter_dmm_flspnr,
+mbp.quarter_dmm_gungu,
+mbp.quarter_dmm_ldong,
+mbp.quarter_dmm_sido,
+mbp.quarter_dmp_sex_age_pop,
+mbp.quarter_dmp_wk_plc_pop,
+mbp.quarter_xxx_biz_std_land_price,
+mbp.query_hive_16500,
+mbp.query_hive_18414,
+mbp.query_hive_20730,
+mbp.r114_apt_bas_value_hsmp_info,
+mbp.r114_dmr_apt_base,
+mbp.r114_dmr_apt_owner_base,
+mbp.r114_dmr_apt_owner_price,
+mbp.r114_dmr_apt_owner_size,
+mbp.r114_dmr_apt_price,
+mbp.r114_dmr_apt_sale_plan,
+mbp.r114_dmr_apt_sale_plan_size,
+mbp.r114_dmr_apt_size,
+mbp.r114_dmr_bz_area_price,
+mbp.r114_dmr_housing,
+mbp.r114_dmr_offc_base,
+mbp.r114_dmr_offc_price,
+mbp.r114_dmr_offc_size,
+mbp.r114_dmr_shop_owner,
+mbp.r114_dmr_shop_owner_detl,
+mbp.r114_dmr_shop_rent,
+mbp.r114_dmr_shop_sale,
+mbp.r114_shop_rent_so_area,
+mbp.rto,- RTO 데이터
+mbp.rto_adm_code_daily,
+mbp.rto_advanced,- RTO 데이터
+mbp.rto_bin_so_weight,
+mbp.rto_census_adm,
+mbp.rto_daily,- 최근 날짜 RTO 데이터
+mbp.rto_daily_tmp1,
+mbp.rto_daily_tmp2,
+mbp.rto_final,
+mbp.rto_final_before,
+mbp.rto_index50_xy_utmk,
+mbp.rto_n3,
+mbp.rto_reg_area,
+mbp.rto_remake_tmp,
+mbp.rto_remake_tmp_before,
+mbp.rto_remake_tmp_before1,
+mbp.rto_so_area,
+mbp.test,
+mbp.tmp_dual,
+mbp.tmp_ingu_0128,
+mbp.twifi_ap,
